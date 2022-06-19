@@ -14,7 +14,7 @@ services:
       redis:
         condition: service_healthy
     ports:
-      - "3000:3000"
+      - "3000:3333"
     networks:
       - internal_network
       - external_network
